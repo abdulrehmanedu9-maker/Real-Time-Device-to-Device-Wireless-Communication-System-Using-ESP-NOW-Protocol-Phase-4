@@ -1,0 +1,63 @@
+{
+  "trained_at": "2026-08-19T13:27:02.496646",
+  "total_rows": 30000,
+  "train_rows": 24000,
+  "test_rows": 6000,
+  "max_tree_depth": 5,
+  "accuracy": 0.9085,
+  "classes": [
+    "normal",
+    "warning",
+    "critical"
+  ],
+  "confusion_matrix": [
+    [
+      4030,
+      186,
+      0
+    ],
+    [
+      245,
+      1015,
+      45
+    ],
+    [
+      0,
+      73,
+      406
+    ]
+  ],
+  "classification_report": {
+    "normal": {
+      "precision": 0.9426900584795321,
+      "recall": 0.9558823529411765,
+      "f1-score": 0.9492403721587563,
+      "support": 4216.0
+    },
+    "warning": {
+      "precision": 0.7967032967032966,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7871267933307483,
+      "support": 1305.0
+    },
+    "critical": {
+      "precision": 0.9002217294900222,
+      "recall": 0.8475991649269311,
+      "f1-score": 0.8731182795698925,
+      "support": 479.0
+    },
+    "accuracy": 0.9085,
+    "macro avg": {
+      "precision": 0.8798716948909503,
+      "recall": 0.8604197652152951,
+      "f1-score": 0.8698284816864658,
+      "support": 6000.0
+    },
+    "weighted avg": {
+      "precision": 0.9075475495288716,
+      "recall": 0.9085,
+      "f1-score": 0.9079035883719869,
+      "support": 6000.0
+    }
+  }
+}
